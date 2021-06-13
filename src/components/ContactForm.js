@@ -70,27 +70,6 @@ const ContactForm = () => {
             onChange={onInputChange}
           />
         </Form.Group>
-        <Form.Group controlId="subject">
-          <Form.Label>Subject</Form.Label>
-          <Form.Control
-            type="text"
-            name="subject"
-            value={state.subject}
-            placeholder="Enter subject"
-            onChange={onInputChange}
-          />
-        </Form.Group>
-        <Form.Group controlId="subject">
-          <Form.Label>Message</Form.Label>
-          <Form.Control
-            as="textarea"
-            name="message"
-            value={state.message}
-            rows="3"
-            placeholder="Enter your message"
-            onChange={onInputChange}
-          />
-        </Form.Group>
         <Button variant="primary" type="submit">
           Submit
         </Button>
