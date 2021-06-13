@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => (
   <header>
-    <h1>Reunion 2021: Remebering Bobby</h1>
+    <h1>Reunion 2021: Remembering Bobby</h1>
     <i>“When we lose someone we love we must learn not to live without them, but to live with the love they left behind”</i>
     <br></br>
     <br></br>
