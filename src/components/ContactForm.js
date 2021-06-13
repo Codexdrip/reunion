@@ -15,7 +15,7 @@ const ContactForm = () => {
   const sendEmail = event => {
     event.preventDefault();
     axios
-      .post('https://reunion2021.herokuapp.com/send', { ...state })
+      .post('https://reunion2021.herokuapp.com/reunion/send', { ...state })
       .then(response => {
         setResult(response.data);
         setState({
